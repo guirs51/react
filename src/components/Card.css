@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+
+}    
+.cartao {
+    background-color: white;
+    width: 22em;
+    height: 26em;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+.img-cartao {
+    width: 20em;
+    height: 13em;
+    border-radius: 5%;
+    margin-top: 18px;
+    object-fit: cover;
+}
+
+
+.cartao-items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 12px;
+}
+
+.h1-cartao {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.p-cartao {
+    color: black;
+    font-size: .8em;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+.itens-row {
+    display: flex;
+    gap: 10px;
+    font-size: .9em;
+}
+
+.p-items {
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px;
+    font-size: .7em;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.barra {
+    color: rgba(14, 12, 12, 0.575);
+}
+
+.hr-cartao {
+    width: 95%;
+    opacity: 0.4;
+}
+
+.row-bottom-p {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.ps {
+    color: rgba(0, 0, 0, 0.658);
+    font-size: .9em;
+    font-family: sans-serif;   
+}
+
+.sp {
+    color: black;
+    margin-bottom: 9px;
+}
+
+.botao-Book {
+    font-size: .8em;
+}
